@@ -39,6 +39,63 @@
         "uri": "https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/ipsum.lst"
       }
     },
+        {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "all-discord",
+        "uri": "https://iplist.opencck.org/?format=text&data=ip4&site=discord.com&site=discord.gg&site=discord.media"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "all-youtube",
+        "uri": "https://iplist.opencck.org/?format=text&data=ip4&site=youtube.com"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "all-youtube-cidr4",
+        "uri": "https://iplist.opencck.org/?format=text&data=cidr4&site=youtube.com"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "phleesty",
+        "uri": "./myips.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "phleesty-block",
+        "uri": "./phleesty-block.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "phleesty-direct",
+        "uri": "./phleesty-direct.txt"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "name": "geoip-ru-only",
+        "uri": "./geoip-ru-only.txt"
+      }
+    },
+    
     {
       "type": "maxmindGeoLite2ASNCSV",
       "action": "add",
